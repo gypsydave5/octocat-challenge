@@ -1,5 +1,0 @@
-The 'upstream' repository is (probably) the repository originally cloned from. If you're
-working on a project with a lot of other people, you'll create your changes 'downstream' -
-locally on your computer - and then push them up to the upstream repository. I think Git probably
-knows whether a remote repo is the upstream, as I reckon it's what gets set to the default target of 'git push'
-(and gets set when you write 'git push -u master origin' - the origin set to be the upstream.
