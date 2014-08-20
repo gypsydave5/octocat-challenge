@@ -1,0 +1,16 @@
+#What a branch is
+
+A branch in git is where you want to work on a project without interfering with
+the work being done on the project - it branches off the state of the files at
+a particular commit. You can then work on those files, isolated from the master
+branch and in no danger of your changes and commits serious screwing up its
+functionality, and interfering with the work of other people. It's a good idea
+to merge changes from the master branch (using pull from the upstream and then
+a merge) as you're working to ensure that your changes are compatible with
+what's being changed there while you're branched off. Then, finally, you merge
+your branch back into the master, putting the work you've done in your master
+(which you then push back upstream for everyone to use).
+
+Branches are created with `git branch` and can be moved to using `git checkout`.
+You can create and move to the branch with the `-b` after `git checkout`.
+
